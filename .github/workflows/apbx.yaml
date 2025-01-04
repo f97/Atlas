@@ -6,7 +6,8 @@ on:
       - "src/**"
       - "**/*.yaml"
       - "**/*.yml"
-
+  workflow_dispatch:
+  
 env:
   SXSC_REPO: "https://github.com/Atlas-OS/sxsc"
 
